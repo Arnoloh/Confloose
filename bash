@@ -1,5 +1,5 @@
 #!bin/bash
-
+cd ~/afs
 clear
 for files in *
 do
