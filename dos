@@ -1,0 +1,6 @@
+#!/bin/bash
+cd ~/afs
+mkdir .Confloose
+mv * .Confloose/
+
+Echo "Done"
