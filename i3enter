@@ -1,0 +1,4 @@
+#!/bin/bash
+cd ~/.config
+echo "~~~~~~~~~~~~~ Confloose ~~~~~~~~~~~~" >> ~/.config/i3/config
+
