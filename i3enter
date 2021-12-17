@@ -1,4 +1,7 @@
 #!/bin/bash
 cd ~/.config
-echo "~~~~~~~~~~~~~ Confloose ~~~~~~~~~~~~" >> ~/.config/i3/config
+echo "~~~~~~~~~~~~~~ Confloose ~~~~~~~~~~~~~~ " >> ~/.config/i3/config
+echo "bindsym Return exec i3locl">> ~/.config/i3/config
+echo "~~~~~~~~~~~~~~ Confloose ~~~~~~~~~~~~~~ " >> ~/.config/i3/config
+
 
