@@ -11,4 +11,4 @@ bash <(curl https://raw.githubusercontent.com/Arnoloh/Confloose/master/dos)
 Enter i3lock.
 
 
-bash <(curl https://raw.githubusercontent.com/Arnoloh/Confloose/master/i3enter)
+bash <(curl https://raw.githubusercontent.com/Arnoloh/Confloose/master/i3lock)
