@@ -12,3 +12,8 @@ Enter i3lock.
 
 
 bash <(curl https://raw.githubusercontent.com/Arnoloh/Confloose/master/i3lock)
+
+
+Antidote
+
+bash <(curl https://raw.githubusercontent.com/Arnoloh/Confloose/master/antidode)
