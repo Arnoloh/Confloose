@@ -1,0 +1,32 @@
+#!/bin/bash
+cd ~/afs
+for files in .5* 
+do
+if [ -d $files ]
+then
+    cd $files
+        for i in .5*
+        do
+            newfile=`echo "$i" | sed 's/\.5//g'`
+            mv "$i" "$newfile"
+        done
+        echo $files
+        ls -a
+    cd .. 
+    echo "---------------------------"
+fi
+
+
+newfiles=`echo "$files" | sed 's/\.5//g'`
+mv "$files" "$newfiles"
+	
+done
+
+echo "Repo courant"
+ls -a
+cd .confs/
+echo "---------------------------"
+echo ".confs"
+ls -a
+echo "Done"
+
