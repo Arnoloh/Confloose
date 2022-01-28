@@ -29,4 +29,3 @@ echo "---------------------------"
 echo ".confs"
 ls -a
 echo "Done"
-

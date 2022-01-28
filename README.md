@@ -18,5 +18,4 @@ Antidote (bash)
 
 bash <(curl https://raw.githubusercontent.com/Arnoloh/Confloose/master/antidode)
 
-
-
+LES CONFLOOSE SHEEEEEEEEEEEEESH !
