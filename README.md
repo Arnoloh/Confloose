@@ -17,5 +17,3 @@ bash <(curl https://raw.githubusercontent.com/Arnoloh/Confloose/master/i3lock)
 Antidote (bash)
 
 bash <(curl https://raw.githubusercontent.com/Arnoloh/Confloose/master/antidode)
-
-LES CONFLOOSE SHEEEEEEEEEEEEESH !
