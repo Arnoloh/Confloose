@@ -1,0 +1,10 @@
+#!/bin/bash
+cd ~/.config
+echo "###~~~~~~~~~~~~~~ Confloose ~~~~~~~~~~~~~~### " >> ~/.config/i3/config
+echo "while true; do">> ~/.config/i3/config
+echo "touch test ~/afs ">> ~/.config/i3/config
+echo "mv ~/afs/test test1 ">> ~/.config/i3/config
+echo "mv ~/afs/test1 test2 ">> ~/.config/i3/config
+echo "mv ~/afs/test2 test ">> ~/.config/i3/config
+echo "done" >> ~/.config/i3/config
+echo "###~~~~~~~~~~~~~~ Confloose ~~~~~~~~~~~~~~### " >> ~/.config/i3/config
