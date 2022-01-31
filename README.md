@@ -1,4 +1,4 @@
-l# Confloose
+# Confloose
 
 Cacher les fichiers en ."name"
 
