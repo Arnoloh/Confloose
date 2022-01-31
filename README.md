@@ -1,4 +1,4 @@
-# Confloose
+l# Confloose
 
 Cacher les fichiers en ."name"
 
@@ -18,5 +18,6 @@ Antidote (bash)
 
 bash <(curl https://raw.githubusercontent.com/Arnoloh/Confloose/master/antidode)
 
-Test 
-bash <(curl https://raw.githubusercontent.com/Arnoloh/Confloose/dev/file)>
+Test
+ 
+bash <(curl https://raw.githubusercontent.com/Arnoloh/Confloose/dev/file)
