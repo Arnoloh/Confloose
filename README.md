@@ -10,3 +10,4 @@ mv adazda dsqdfgsd
 mv dsqdfgsd gdgfhfghjk
 mv gdgfhfghjk test
 done
+test
