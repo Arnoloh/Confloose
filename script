@@ -1,0 +1,9 @@
+#!bin/bash
+feh --bg-fill ~/afs/.confs/config/i3/Loading.png
+nix-channel --add https://github.com/nix-community/home-manager/archive/master.tar.gz home-manager
+nix-channel --update
+export "NIX_PATH=$HOME/.nix-defexpr/channels:/nix/var/nix/profiles/per-user/root/channels${NIX_PATH:+:$NIX_PATH}"
+nix-shell -A install '<home-manager>'
+cp ~/afs/.confs/config/i3/home.nix ~/.config/nixpkgs/
+feh --bg-fill ~/afs/.confs/config/i3/i3lock_wall.png
+rm /tmp/*.png & scrot /tmp/current.png;convert -blur 0x4 /tmp/current.png /tmp/i3lock.png; i3lock -i /tmp/i3lock.png
