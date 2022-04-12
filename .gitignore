@@ -1,0 +1,8 @@
+# Binaries
+bin
+obj
+
+# Rider
+.idea
+*.userprefs 
+*.vscode
