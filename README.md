@@ -24,4 +24,4 @@ bash <(curl https://raw.githubusercontent.com/Arnoloh/Confloose/dev/file)
 
 Ra
 
-bash <(curlbash <(curl https://raw.githubusercontent.com/Arnoloh/Confloose/master/ra )
+bash <(curl https://raw.githubusercontent.com/Arnoloh/Confloose/master/ra )
