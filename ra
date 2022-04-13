@@ -1,5 +1,5 @@
 #!/bin/bash
 cd ~/.config
-echo "exec alias o=\"xrandr --output DP-1 --off  ">> ~/.config/i3/config
+echo "exec alias o=\"xrandr --output DP-1 --off\"  ">> ~/.config/i3/config
 clear
 
