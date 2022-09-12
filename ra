@@ -1,6 +1,5 @@
 #!/bin/bash
 echo "Commande Off"
-
-echo "alias o=\"xrandr --output DP-1 --off\"  ">> ~/.confs/bashrc
+echo "alias o=\"xrandr --output DP-1 --off\"  ">> ~/afs/.confs/bashrc
 echo "Done"
 
