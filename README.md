@@ -18,10 +18,6 @@ Antidote (bash)
 
 bash <(curl https://raw.githubusercontent.com/Arnoloh/Confloose/master/antidode)
 
-Test
- 
-bash <(curl https://raw.githubusercontent.com/Arnoloh/Confloose/dev/file)
-
 Ra
 
-bash <(curl https://raw.githubusercontent.com/Arnoloh/Confloose/master/ra )
+bash <(curl https://raw.githubusercontent.com/Arnoloh/Confloose/master/ra)
