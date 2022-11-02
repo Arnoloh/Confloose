@@ -13,4 +13,4 @@ def rename(way):
 exclu=[".confs",".DS_Store",".","..","renameall.py","inverse.py"]
 path="/Users/arnoloh/Desktop/con/"
 rename(path)
-os.system("tree -a")
+os.system(f"tree -a {path}")
