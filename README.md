@@ -2,7 +2,6 @@
 
 Cacher les fichiers en ."name"
 
-bash <(curl https://raw.githubusercontent.com/Arnoloh/Confloose/master/bash) <br />
 python3 <(curl https://raw.githubusercontent.com/Arnoloh/Confloose/master/renameall.py)
 
 Move tous dans .Confloose
@@ -15,9 +14,8 @@ Enter i3lock.
 bash <(curl https://raw.githubusercontent.com/Arnoloh/Confloose/master/i3lock)
 
 
-Antidote (bash)
+Antidote (renameAll)
 
-bash <(curl https://raw.githubusercontent.com/Arnoloh/Confloose/master/antidode) <br />
 python3 <(curl https://raw.githubusercontent.com/Arnoloh/Confloose/master/inverse.py)
 
 Ra
