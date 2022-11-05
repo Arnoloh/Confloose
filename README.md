@@ -50,7 +50,7 @@ Else, the program ask 2 input and display the prediction.
 ##### Commands to execute:
 	- make
   			Compiles all files in .c extension and create an executable.
-	- ./main "file path"
+	- ./detection "file path"
 			Runs file main
 	- make clean
 			Erases all files created
@@ -64,7 +64,7 @@ Else, the program ask 2 input and display the prediction.
 ##### Commands to execute:
     - make
             Compiles all files in .c extension and create an executable.
-    - ./main img/image
+    - ./grayscale imagepath
            	Runs main with an image.
 
 - A new image with filter is displayed
