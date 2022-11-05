@@ -63,7 +63,7 @@ Else, the program ask 2 input and display the prediction.
 ## Image Processing
 ##### Commands to execute:
     - make
-		    Compiles all files in .c extension and create an executable.
+            Compiles all files in .c extension and create an executable.
     - ./main img/image
            	Runs main with an image.
 
