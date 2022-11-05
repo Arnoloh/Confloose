@@ -6,9 +6,9 @@
 
 2. [Solver](#Solver)
 
-3. [Détection de ligne et découpage](#Détection de ligne et découpage)
+3. [Détection de ligne et découpage](#Détection_de_ligne_et_découpage)
 
-4. [Image Processing](#Image Processing)
+4. [Image Processing](#Image_Processing)
 
 
 
