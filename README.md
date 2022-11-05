@@ -23,7 +23,7 @@
     - make clean       
   			Erases the executable
 
-If training, the progress of the network is displayed
+If training, the progress of the network is displayed.
 Else, the program ask 2 input and display the prediction.
 >        Exemple: Enter two inputs (X Y) or (2 2) to exit:
 >        42sh$>    1 0 
@@ -63,7 +63,7 @@ Else, the program ask 2 input and display the prediction.
 ## Image Processing
 ##### Commands to execute:
     - make
-			Compiles all files in .c extension and create an executable.
+		    Compiles all files in .c extension and create an executable.
     - ./main img/image
            	Runs main with an image.
 
