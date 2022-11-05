@@ -7,7 +7,7 @@
   
   - [Solver](#solver)
   
-  - [Line detection and cutting](#Line detection and cutting)
+  - [Line detection and cutting](#Line-detection-and-cutting)
   
   - [Image Processing](#image-processing)
 
