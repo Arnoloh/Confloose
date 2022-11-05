@@ -2,11 +2,11 @@
 # OCR
 
 **Table of Contents**
-1. [Neural Network](#Neural Network)
+1. [Neural Network](#Neural_Network)
 
 2. [Solver](#Solver)
 
-3. [Line Detection](#Détection de ligne et découpage)
+3. [Détection de ligne et découpage](#Détection de ligne et découpage)
 
 4. [Image Processing](#Image Processing)
 
