@@ -1,4 +1,4 @@
-PROMPT='%B%2~ - time: 0ms %{$fg_bold[white]%}- $(git_prompt_info) $(git_prompt_status) %{$fg[none]%} 
+PROMPT='%B on: %{$fg_bold[yellow]%}macos %{$fg_bold[white]%}- %2~ - time: 0ms %{$fg_bold[white]%}- $(git_prompt_info) $(git_prompt_status) %{$fg[none]%}
 %{$fg[white]%}→ '
 
 #info
@@ -29,17 +29,17 @@ prompt_precmd() {
 		printf -v prompt_elapsed_time '%im%is' ${m} ${s}
 	elif (( s >= 10 )); then
 
-		PS1='%B%2~ - time: %{$fg_bold[red]%}${prompt_elapsed_time}%{$fg_bold[white]%} - $(git_prompt_info) $(git_prompt_status) %{$fg[none]%} 
+		PS1='%Bon: %{$fg_bold[yellow]%}macos %{$fg_bold[white]%}- %2~ - time: %{$fg_bold[red]%}${prompt_elapsed_time}%{$fg_bold[white]%} - $(git_prompt_info) $(git_prompt_status) %{$fg[none]%}
 %{$fg_bold[white]%}→ '
 
 		printf -v prompt_elapsed_time '%.2fs' ${s} # 12.34s
 		elif
-		PS1='%B%2~ - time: %{$fg_bold[yellow]%}${prompt_elapsed_time}%{$fg_bold[white]%} - $(git_prompt_info) $(git_prompt_status) %{$fg[none]%} 
+		PS1='%Bon: %{$fg_bold[yellow]%}macos %{$fg_bold[white]%}-  %2~ - time: %{$fg_bold[yellow]%}${prompt_elapsed_time}%{$fg_bold[white]%} - $(git_prompt_info) $(git_prompt_status) %{$fg[none]%}
 %{$fg[white]%}→ '
 		(( s >= 1 )); then
 		printf -v prompt_elapsed_time '%.3fs' ${s} # 1.234s
 		else
-			PS1='%B%2~ - time: %{$fg_bold[green]%}${prompt_elapsed_time} %{$fg_bold[white]%}- $(git_prompt_info) $(git_prompt_status) %{$fg[none]%} 
+			PS1='%Bon: %{$fg_bold[yellow]%}macos %{$fg_bold[white]%}-  %2~ - time: %{$fg_bold[green]%}${prompt_elapsed_time} %{$fg_bold[white]%}- $(git_prompt_info) $(git_prompt_status) %{$fg[none]%}
 %{$fg_bold[white]%}→ '
 		printf -v prompt_elapsed_time '%ims' $(( s*1000 ))
 		fi
@@ -57,4 +57,3 @@ add-zsh-hook preexec prompt_preexec
 add-zsh-hook precmd prompt_precmd
 
 RPROMPT='%(?.%{$fg[green]%}✔%f.%{$fg[red]%}✘%f)'
-
