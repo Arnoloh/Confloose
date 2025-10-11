@@ -3,4 +3,4 @@ cd ~/afs
 mkdir .Confloose
 mv * .Confloose/
 
-Echo "Done"
+echo "Done"
